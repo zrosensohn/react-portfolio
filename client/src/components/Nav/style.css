@@ -1,0 +1,8 @@
+.custom-nav {
+  background-color: #5632ff;
+  background: linear-gradient(150deg, #1bb978 40%, #B0DE9E 100%);
+}
+
+.custom-nav-link {
+  color: #f2f2f2!important;
+}

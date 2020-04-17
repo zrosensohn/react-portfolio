@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import NoMatch from "./pages/NoMatch";
@@ -13,7 +14,7 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path={["/", "/home"]}>
-            <h1>Home Page</h1>
+            <Home />
           </Route>
           <Route exact path="/portfolio">
             <Portfolio />

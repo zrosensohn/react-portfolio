@@ -36,6 +36,7 @@ function Contact() {
         break;
     }
   }
+
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -58,7 +59,7 @@ function Contact() {
 
       })
       .catch(err => {
-        console.log(err);
+        console.log(err.response);
       }
       );
   }
